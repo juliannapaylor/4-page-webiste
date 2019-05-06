@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #eeeeee;
+}
+
+.tm-trainingb {
+    background-color: rgba(219, 42, 42, 0.13);
+}
+
+.tm-paintingsb {
+    background-color: rgba(62, 153, 255, 0.17);
+}
+
+.tm-sculpturesb {
+    background-color: rgba(255, 228, 196, 0.6);
+}
+
+.tm-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tm-header{
+    background: #fff;
+}
+
+.tm-header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.tm-logo{
+    float: left;
+}
+
+.tm-nav{
+    float: right;
+}
+
+.tm-nav ul{
+    margin-bottom: 0px;
+}
+
+.tm-nav ul li{
+    display: inline-block;
+}
+
+.tm-nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #303030;
+    line-height: 60px;
+}
+
+.tm-nav ul li a:hover{
+    color: #3e99ff;
+}
+
+/* 2nd part code here */
+
+p{
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 10px;
+    font-family: serif; 
+}
+
+ul, ol{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.tm-trainingimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.tm-scimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.tm-adamimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.tm-davidimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.tm-pietaimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.tm-mosesimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
+.tm-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 70%;
+    float: left;
+}
+
+.tm-sidebar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 25%;
+    float: right;
+    width: 25%;
+}
+
+.tm-sidebar div{
+    background: #fff;
+    padding: 30px;
+}
+
+.tm-article{
+    background: #fff;
+    padding: 30px;
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+    
+.tm-footer{
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.tm-sources{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
